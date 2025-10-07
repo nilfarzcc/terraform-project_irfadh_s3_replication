@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source = "git::https://github.com/nilfarzcc/terraform-module.git?ref=main"
+  source = "git::https://github.com/nilfarzcc/terraform-module.git//s3_bucket?ref=main"
 
   providers = {
     aws         = aws        # primary region provider
